@@ -1,10 +1,11 @@
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
 public class GameManager : MonoBehaviour
 {
-    [SerializeField] Text txtScoreP1;
-    [SerializeField] Text txtScoreP2;
+    [SerializeField] TMP_Text txtScoreP1;
+    [SerializeField] TextMeshProUGUI txtScoreP2;
     [SerializeField] GameObject pelota;
 
     int p1Score;
